@@ -1,4 +1,3 @@
-require 'pry'
 def count_strings(array)
  total_strings = 0
   array.count do |element|
