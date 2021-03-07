@@ -1,14 +1,15 @@
 def count_strings(array)
-  total = 0
+  string_count = 0
   index = 0
- 
 while index < array.length do
-  if array[index].even?
-    total += 1 # total is only incremented when the current array element is even
+  if array[index].class == String
+    total += 1 
   end
   index += 1
 end
 total
+end
+
 def count_strings(array)
  total_strings = 0
   array.count do |element|
