@@ -1,7 +1,7 @@
 def count_strings(array)
  total_strings = 0
   array.count do |element|
-    if element.class == String
+    element.class == String
       total_strings += 1
     end
     total_strings
